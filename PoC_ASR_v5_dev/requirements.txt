@@ -1,0 +1,46 @@
+# Core framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+jinja2>=3.1.2
+aiofiles>=23.2.1
+
+# AI/ML - Speech-to-Text
+faster-whisper>=1.0.0
+ctranslate2>=4.0.0
+
+# AI/ML - Speaker Diarization (from notebook cell #2)
+pyannote.audio>=3.3.1
+torch>=2.1.0
+torchaudio>=2.1.0
+torchvision
+lightning
+torchmetrics
+
+
+# Transformers Whisper + LoRA
+transformers>=4.39.0,<5
+accelerate>=0.26.0
+peft>=0.8.0
+huggingface-hub>=0.20.0
+safetensors>=0.4.0
+
+
+# AI/ML - Vocal Separation
+audio-separator[cpu]>=0.17.0
+denoiser>=0.1.4
+
+# Audio processing
+librosa>=0.10.0
+ffmpeg-python>=0.2.0
+pydub>=0.25.1
+
+# Configuration
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# Utilities
+numpy>=1.24.0
+
+
+
